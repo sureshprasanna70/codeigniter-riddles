@@ -1,0 +1,33 @@
+@import url('font-awesome.min.css');
+
+@font-face 
+{
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'BlenderPro';
+    src: local('☺'),url('../fonts/BlenderPro/BlenderPro-Heavy.otf') format('opentype');
+}
+
+@font-face 
+{
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'UglyQua';
+    src: local('☺'),url('../fonts/UglyQua/UglyQua.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'CeriaLebaran';
+    src: local('☺'),url('../fonts/CeriaLebaran/CeriaLebaran.otf') format('opentype');
+}
+
+@font-face 
+{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Dalek';
+    src: local('☺'),url('../fonts/Dalek/Dalek.ttf') format('truetype');
+}

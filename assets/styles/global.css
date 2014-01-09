@@ -1,0 +1,293 @@
+body
+{
+	background-image: url('../images/bg.jpg');
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #FFF;
+	font-family: 'UglyQua';
+}
+
+[ros-logo] {
+	display: block;
+	width: 400px;
+	padding: 20px;
+	position: absolute;
+	top: -80px;
+	left: 450px;
+	z-index: 10;
+}
+
+[k-logo]
+{
+	float: right;
+	display: block;
+	width: 300px;
+	padding: 20px;
+}
+
+[ctf-logo]
+{
+	width: 200px;
+}
+
+header {
+	min-height: 100px;
+}
+
+.wooden-navigation {
+	background-image: url('../images/navigationbg.png');
+	background-size: auto 50px;
+	background-repeat: repeat-x;
+	height: 50px;
+	border-radius: 10px; 
+	font-family: 'CeriaLebaran';
+}
+
+.wooden-navigation > li {
+
+}
+
+.wooden-navigation > li > a {
+	color: rgba(255,255,255,1.0);
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.wooden-navigation > li > a:hover {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 0;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.imagebox {
+	display: inline-block;
+	background-image: url('../images/imagebox.png');
+	background-size: 215px 170px;
+	width: 215px;
+	height: 170px;
+	padding: 10px;
+	z-index: 2;
+	margin: 0 auto;
+}
+
+.imagebox  > img {
+	padding: 15px;
+	z-index: 1;
+}
+
+.empty-track {
+	height: 100px;
+}
+
+form[name="answer-form"] > input[type="text"] {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #2B1402;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'UglyQua';
+}
+
+form[name="answer-form"] > input[type="text"]:focus {
+	outline: none;
+}
+
+form[name="answer-form"] > button[type="submit"] {
+	background-color: transparent;
+	color: #444;
+	font-size: 20px;
+	font-family: 'UglyQua';
+	float: right;
+	margin: 10px;
+	padding: 5px 20px;
+	border: 1px solid #2B1402;
+	color: #2B1402;
+	-webkit-transition: all 550ms ease-out;
+	-moz-transition: all 550ms ease-out;
+	-ms-transition: all 550ms ease-out;
+	-o-transition: all 550ms ease-out;
+	transition: all 550ms ease-out;
+}
+
+form[name="answer-form"] > button[type="submit"]:hover {
+	background-color: #2B1402;
+	color: #FFF;
+}
+
+form[name="answer-form"] input::-webkit-input-placeholder {
+    color:    #000;
+}
+
+form[name="answer-form"] input:-moz-placeholder {
+    color:    #000;
+}
+
+form[name="answer-form"] input::-moz-placeholder {
+    color:    #000;
+}
+
+form[name="answer-form"] input:-ms-input-placeholder {
+    color:    #000;
+}
+
+.question-display {
+	font-family: 'UglyQua';
+	color: #111;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+[egyptmale] {
+	margin-left: 50px;
+}
+
+.arrow_box {
+	position: absolute;
+	margin-right: 150px;
+	margin-top: 15px;
+	background: #482D0F;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #482D0F;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-width: 16px;
+	margin-top: -16px;
+}
+
+.modal-content {
+	background: transparent;
+	background-image: url('../images/modalbg.jpg');
+	color: #111;
+	padding: 10px;
+
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-title {
+	font-family: 'UglyQua';
+	font-size: 20px;
+}
+
+[name="loginform"] > input[type="email"], [name="loginform"] > input[type="password"] {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #2B1402;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'UglyQua';
+	 -moz-appearance:    textfield;
+        -webkit-appearance: textfield;
+        appearance: textfield;
+}
+
+[name="loginform"] input::-webkit-input-placeholder {
+    color:    #000;
+}
+
+[name="loginform"] input:-moz-placeholder {
+    color:    #000;
+}
+
+[name="loginform"] input::-moz-placeholder {
+    color:    #000;
+}
+
+[name="loginform"] input:-ms-input-placeholder {
+    color:    #000;
+}
+
+[name="loginform"] > input[type="email"]:focus, [name="loginform"] > input[type="password"]:focus {
+	outline: none;
+}
+
+[name="loginform"] > button[type="submit"] {
+	background-color: transparent;
+	color: #444;
+	font-size: 20px;
+	font-family: 'UglyQua';
+	float: right;
+	margin: 10px;
+	padding: 5px 20px;
+	border: 1px solid #2B1402;
+	color: #2B1402;
+	-webkit-transition: all 550ms ease-out;
+	-moz-transition: all 550ms ease-out;
+	-ms-transition: all 550ms ease-out;
+	-o-transition: all 550ms ease-out;
+	transition: all 550ms ease-out;
+}
+
+[name="loginform"] > button[type="submit"]:hover {
+	background-color: #2B1402;
+	color: #FFF;
+}
+
+.fa-big {
+	font-size: 100px;
+	padding: 20px 40px;
+}
+.center-page
+{
+	margin-top: 2%;
+	font-size: 25px;
+	text-align: center;
+}
+.white-head
+{
+
+	text-align: center;
+	font-size: 30px;
+}
+.white-rules
+{
+	
+	font-size: 20px;
+}
+.personal
+
+{
+	
+
+color: white;
+text-align: center;
+font-size: 25px;
+}
+.others
+{
+	
+	color: white;
+	font-size: 20px;
+	margin-left: 16%;
+	margin-top: 2%;
+	border-width: 2px;
+	border:2px;
+}
